@@ -1,5 +1,7 @@
 package pp.prova03.principal;
 import pp.prova03.personagens.*;
+import pp.prova03.personagens.Personagem;
+import pp.prova03.personagens.Mago;
 import pp.prova03.jogo.*;
 
 public class Principal {
@@ -18,7 +20,7 @@ public class Principal {
 			j.ControlarAcoesDosPersonagens(personagem[i]);
 		}
 		
-		Mago p = new Mago("Merlin");
-		p.invisibilidade();
+		Personagem p = new Mago("Merlin");
+		((Mago) p).invisibilidade();
 	}
 }
