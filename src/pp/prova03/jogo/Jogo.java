@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Jogo extends Personagem {
 	public Jogo() {}
-	public void ControlarAcoesDosPersonagens(Personagem personagem) {
+	public static void ControlarAcoesDosPersonagens(Personagem personagem) {
 		if (personagem instanceof Cavaleiro) {
 			Cavaleiro c = (Cavaleiro) personagem;
 			JOptionPane.showMessageDialog(null,"O nome do cavaleiro é: "+c.getNome());

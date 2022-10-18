@@ -15,9 +15,10 @@ public class Principal {
 		personagem[4] = new Dragao("Smaug");
 		personagem[5] = new Dragao("Porunga");
 		
-		Jogo j = new Jogo();
+		//Jogo j = new Jogo();
 		for (int i = 0; i < personagem.length; i++) {
-			j.ControlarAcoesDosPersonagens(personagem[i]);
+			//j.ControlarAcoesDosPersonagens(personagem[i]);
+			Jogo.ControlarAcoesDosPersonagens(personagem[i]);
 		}
 		
 		Personagem p = new Mago("Merlin");
