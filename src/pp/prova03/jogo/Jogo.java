@@ -2,7 +2,7 @@ package pp.prova03.jogo;
 import pp.prova03.personagens.*;
 import javax.swing.JOptionPane;
 
-public static class Jogo extends Personagem {
+public class Jogo extends Personagem {
 	public Jogo() {}
 	public void ControlarAcoesDosPersonagens(Personagem personagem) {
 		if (personagem instanceof Cavaleiro) {
